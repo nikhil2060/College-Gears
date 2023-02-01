@@ -14,7 +14,12 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="login_css.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eaa0d583e2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -42,14 +47,26 @@
     </header>
     <div class="signin_main_box">
         <div class="signin-content">
-          <small class="login_option">Not a member?</small>
-          <a href="#" class="login_option_link">Register now</a>
-          <h1>Hello User!!</h1>
-          <small class="user_invitation">xxxxxxxxxxxx back you've been missed !</small>
-          <input class="username" placeholder="ENTER USERNAME">
-          <input class="password" placeholder="PASSWORD">
+          <div class="login_discrition">
+            <small class="login_option">Not a member?</small>
+            <a href="#" class="login_option_link" target="_blank">Register now</a>
+            <h1 class="sout_hello">Hello User!!</h1>
+          </div>
+          <small class="user_invitation">welcome back you've been missed !</small>
+          <input class="username" placeholder="ENTER USERNAME" type="text" required>
+          <input class="password" placeholder="PASSWORD" type="password" required>
           <button class="login_btn">LOGIN</button>
+          <hr>
+          <p class="login-footer">Or continue with</p>
+          <hr>
+          <div class="login-footer-icons">
+             <a class="linkedin_link" href="#" target="_blank"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+             <a class="github_link" href="#" target="_blank"><i class="fa-brands fa-github" id="github"></i></a>
+             <a class="facebook_link" href="#" target="_blank"><i class="fa-brands fa-facebook" id="facebook"></i></a>
+             <a class="google_link" href="#" target="_blank"><img src="icons8-google-40.png" id="google" style="margin-top:0rem ;"></a>
+          </div>
         </div>
+        <img src="49.jpg">
     </div>
     <main>
         <section class="section-hero">
