@@ -38,6 +38,7 @@
     border-radius:1rem;
     margin: 1rem auto 0px auto;
     background-color: white;
+    opacity: 0.7;
 }
 .Uname{
     height: 5rem;
@@ -47,6 +48,7 @@
     border-radius:1rem;
     margin: 4rem auto 0px auto;
     background-color: white;
+    opacity: 0.7;
 }
 .signup-btn{
     height: 5rem;
@@ -57,6 +59,7 @@
     margin: 2rem auto 0.5rem auto;
     display: block;
     font-weight: 700;
+    
 }
 .hr1{
  display: inline-block;
