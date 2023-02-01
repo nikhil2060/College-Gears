@@ -37,7 +37,7 @@ html {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 2rem;
     margin-top: 1rem;
-    color: black;
+    color:rgb(79, 128, 192);
 }
 small{
     font-family: 'Open Sans', sans-serif;
@@ -55,16 +55,16 @@ small{
 }
 .login_option_link{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(51, 117, 198);
 }
 .login_option_link:hover{
-    color: blueviolet;
+    color: rgb(51, 117, 198);
 }
 .login_option_link:active{
-    color: blueviolet;
+    color: rgb(51, 117, 198);
 }
 .login_option_link:visited{
-    color: blueviolet;
+    color: rgb(51, 117, 198);
 }
 .login-footer{
     color: black;
