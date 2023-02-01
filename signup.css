@@ -1,0 +1,100 @@
+.sign-up_box{
+  
+    height: 37rem;
+    width: 51rem;
+    margin: 100px auto 0px auto;
+    border-radius: 30px;
+    background-color:#d2d5ed;
+    box-shadow: 0px 0px 30px -3px rgb(8 8 8 / 30%);
+    display: flex;
+}
+.signup_image{
+    height: 95%;
+    display: inline-block;
+    border-radius: 30px;
+    filter:saturate(0.6);
+    filter: contrast(0.7);
+    margin: 15px 0px 0px 15px;
+}
+.signup_content
+{
+    margin-top: 20px;
+    height: 30rem;
+    width: 27rem;   
+    text-align: center;
+}
+.heading_signup{
+    font-family: 'Source Sans Pro', sans-serif;  
+    color:#6f7acd;
+    margin-bottom: 7px;
+}
+.head_discription{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.username ,.email_id ,.contact_num ,.password{
+    outline: none;
+    border-style: none;
+    font-weight: 700;
+    margin: 15px 0px 0px 15px;
+}
+.username_div ,.email_id_div ,.contact_num_div ,.password_div{
+    background-color: white;
+    margin: 20px auto 0px auto;
+    height: 3rem;
+    width: 70%;
+    border-radius: 12px;
+}
+.sign-up_btn{
+    height: 3rem;
+    width: 70%;
+    background-color: #b5bbe9;
+    outline: none;
+    border-style: none;
+    border-radius:9px;
+    margin: 30px 0px 0px 65px;
+    cursor: pointer;
+    display: block;
+}
+
+hr{
+    margin-top: 20px;
+    width: 100px;
+    border-style: none;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+.footer_discription{
+  display: inline;
+  vertical-align: super;
+}
+#linkedin{
+    font-size: 38px;
+    color: rgb(13, 13, 84);
+}
+#google{
+   vertical-align:text-bottom;
+}
+#git{
+    font-size: 38px;
+    color: rgb(4, 4, 77);
+}
+#fb{
+    font-size: 38px;
+    color: rgb(27, 27, 114);
+}
+.linkedin-link{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.google-link{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.git-link{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.facebook-link{
+    cursor: pointer;
+    margin-right: 30px;
+}

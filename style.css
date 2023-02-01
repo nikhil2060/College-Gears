@@ -1,0 +1,378 @@
+/* Colors : #6674cc,#f3f3ff,#f0f1fa,#f8f8fd
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ */
+
+/* ****** */
+
+/* ****** */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+html {
+  font-size: 62.6%;
+}
+/* GENERIC CLASESS************************************ */
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/* HEADINGS */
+.heading-primary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.1rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #6674cc;
+  text-transform: uppercase;
+  margin-bottom: 4.8rem;
+  letter-spacing: 0.75px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* ICONS */
+
+.icon {
+  width: 48px;
+  background-color: #e9bab5;
+  padding: 1rem;
+  border-radius: 50%;
+  stroke: #3f2320;
+}
+
+.icon-road {
+  background-color: #d7e9b9;
+  font-size: 2.7rem;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #2b2f25;
+}
+
+.icon-notes {
+  background-color: #fffbac;
+  font-size: 2.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #333222;
+}
+
+.icon-notes {
+  background-color: #fffbac;
+  font-size: 2.7rem;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #333222;
+}
+
+.icon-tutorial {
+  background-color: #e5e0ff;
+  font-size: 2.5rem;
+  padding: 1.1rem;
+  border-radius: 50%;
+  color: #2e2d33;
+}
+
+.icon-gears {
+  width: 48px;
+  background-color: #fde6e6;
+  padding: 1rem;
+  border-radius: 50%;
+  stroke: #492828;
+}
+
+.icon-gears {
+  width: 48px;
+  background-color: #fde6e6;
+  padding: 1rem;
+  border-radius: 50%;
+  stroke: #492828;
+}
+
+.icon-skills {
+  width: 48px;
+  background-color: #ccddd7;
+  padding: 1rem;
+  border-radius: 50%;
+  stroke: #19221f;
+}
+
+/* GRID */
+
+.grid {
+  display: grid;
+
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+/* .grid--5--cols {
+  grid-template-columns: repeat(5, 1fr);
+} */
+
+.grid-center-v {
+  align-items: center;
+}
+
+/* BUTTONS */
+
+.margin-right-small {
+  margin-right: 2rem;
+}
+
+.btn,
+.btn:visited,
+.btn:active {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 15px;
+  border: none;
+  transition: all 0.3s;
+  font-family: inherit;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #6674cc;
+  color: #fffaf7;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: #525da3;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #f0f1fa;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+/* Header CLASSES ************************** */
+
+.website-logo {
+  height: 5rem;
+  padding-left: 2rem;
+}
+
+.header-section {
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* box-shadow: 0.5rem 0.5rem 2rem rgba(85, 85, 85, 0.074); */
+  /* background-image: linear-gradient(-140deg, rgba(102, 116, 204, 0.5), #fff); */
+  background-color: #f8f8fd;
+}
+
+.main-nav {
+  display: flex;
+  gap: 10rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4.2rem;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: #333;
+}
+
+.log-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.log-nav-link {
+  text-decoration: none;
+  font-size: 1.9rem;
+  border-radius: 1.6rem;
+}
+
+.log1 {
+  color: #333;
+  box-shadow: inset 0 0 0 1.25px #6674cc;
+  padding: 1.2rem 3.2rem;
+  background-color: #eaeafe;
+  /* border: 0.2rem solid #6674cc; */
+}
+
+.sign1 {
+  color: #fff;
+  background-color: #6674cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 1.6rem 1.4rem 2.4rem;
+  margin-right: 1rem;
+  gap: 0.5rem;
+}
+
+/* Here CLASSES ************************** */
+
+.section-hero {
+  /* background-image: linear-gradient(-140deg, rgba(102, 116, 204, 0.5), #fff); */
+
+  background-color: #f8f8fd;
+  height: 100vh;
+}
+
+.hero {
+  max-width: 130rem;
+  padding: 5rem 1.6rem 2rem 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-around;
+  gap: 9.6rem;
+}
+
+.hero-img {
+  width: 110%;
+}
+
+.hero-des {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+/* Features CLASSES ************************** */
+
+.section-features {
+  padding: 2rem 0;
+  /* background-color: #f3f3ff; */
+  background-image: linear-gradient(to bottom, #f8f8fd, #d3d8ff);
+}
+
+.why-width {
+  width: 64%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+
+.features-box {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 3.2rem 1rem 4.8rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-bottom: 0.5rem solid #e9bab5;
+}
+
+.features-box:hover {
+  overflow: hidden;
+  transition: all 0.4s;
+  transform: translateY(-1.2rem);
+}
+
+/* .feature-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+} */
+
+.feature-title {
+  font-size: 2rem;
+  color: inherit;
+  font-weight: 600;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  color: #777;
+  line-height: 1.2;
+  width: 85%;
+}
+
+.roadmap-box {
+  border-bottom: 0.5rem solid #d7e9b9;
+}
+
+.notes-box {
+  border-bottom: 0.5rem solid #fffbac;
+}
+
+.tutorial-box {
+  border-bottom: 0.5rem solid #e5e0ff;
+}
+
+.gear-box {
+  border-bottom: 0.5rem solid #fde6e6;
+}
+
+.skill-box {
+  border-bottom: 0.5rem solid #ccddd7;
+}

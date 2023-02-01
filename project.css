@@ -1,0 +1,125 @@
+body{
+    background-color: white;
+}
+.login-box{
+    height: 32.5rem;
+    width: 40rem;
+    margin : 125px auto 0px auto;
+    background-color:#d2d5ed;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px -3px rgb(8 8 8 / 30%);
+    display: flex;
+    gap:60px;
+}
+.detail_box
+{
+ 
+ position: absolute;
+ margin-top: 185px;
+ height: 15rem;
+ width: 25rem;
+ margin-left: 2rem;
+}
+.username{
+    display:block;
+    width: 70%;
+    height: 3rem;
+    border-style: none;
+    border-radius: 9px;
+    outline: none;
+    text-indent: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.passcode{
+    margin-top: 0.9rem;
+    display:block;
+    width: 70%;
+    height: 3rem;
+    border-style: none;
+    border-radius: 9px;
+    outline: none;
+    text-indent: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+hr{
+    display: inline-block;
+    width: 90px;
+    border-style: none;
+    border-top: 1px solid black;
+    margin-top: 30px;
+}
+.login-foot{
+    display: inline-block;
+    vertical-align:super;
+}
+.social-icons{
+    margin-left: 22px;
+}
+#linkedin{
+    font-size: 38px;
+    color: rgb(13, 13, 84);
+}
+#google{
+   vertical-align:text-bottom;
+}
+#git{
+    font-size: 38px;
+    color: rgb(4, 4, 77);
+}
+#fb{
+    font-size: 38px;
+    color: rgb(27, 27, 114);
+}
+.linkedin-link{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.google-link{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.git-link{
+    cursor: pointer;
+    margin-right: 30px;
+}
+.facebook-link{
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.login-head{
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+.guy-pic{
+    border-radius:20px ;
+    display: inline-block;
+    width: 280px;
+    margin-top: 10px;
+    height:500px;
+}
+.reg-link{
+    text-decoration: none;
+    text-align: left;
+    color:  rgb(82, 82, 195);
+}
+.reg-link:visited{
+    color:  rgb(82, 82, 195);
+}
+.reg-link:active{
+    color:  rgb(82, 82, 195);   
+}
+button{ 
+    margin-top: 40px;
+    border-style:none;
+    cursor: pointer;
+    border-radius: 9px;
+    width: 70%;
+    height: 3rem;
+   
+    background-color: #b5bbe9;
+}
