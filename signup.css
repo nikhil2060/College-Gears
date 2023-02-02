@@ -1,5 +1,5 @@
 .signup_main_box{
-    height: 60rem;
+    height: 63rem;
     width: 80rem;
     margin: 4rem auto 3rem auto;
     border-radius: 3rem;
@@ -88,4 +88,16 @@ font-size: 1.3rem;
 }
 .sign-up-link:visited{
     color: rgb(51, 117, 198);
+}
+#uname,#passcode,#mails,#phone{
+    font-weight: 700; 
+    margin-top: 1.3rem;
+    outline: none;
+    border-style: none;
+}
+.warn{
+    display: block;
+    font-size: 1rem;
+    margin-top: .4rem;
+    color:rgb(152, 22, 22)
 }
