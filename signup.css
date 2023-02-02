@@ -1,1 +1,89 @@
-
+.signup_main_box{
+    height: 60rem;
+    width: 80rem;
+    margin: 4rem auto 3rem auto;
+    border-radius: 3rem;
+    box-shadow: 0rem 0rem 1rem 0.3rem rgb(163 153 166);
+    background-color: rgb(191, 207, 228);
+    border: .1rem solid rgb(191, 207, 228);
+    display: flex;
+}
+.signup-content
+{
+    border-radius: 3rem;
+    height: 55rem;
+    width: 45rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.guy_pic2{
+    opacity: 0.8;
+}
+.signup_head{
+  color:rgb(79, 128, 192);
+  font-family: 'Open Sans', sans-serif; 
+  font-size:3rem;
+  margin-bottom: 1rem;
+}
+.signup-greeting{
+    color: black;
+    font-family: 'Open Sans', sans-serif; 
+    font-size:1rem;
+}
+.call,.pass,.mail{
+    height: 5rem;
+    width: 25rem;
+    outline: none;
+    border-style:none ;
+    border-radius:1rem;
+    margin: 1rem auto 0px auto;
+    background-color: white;
+    opacity: 0.7;
+}
+.Uname{
+    height: 5rem;
+    width: 25rem;
+    outline: none;
+    border-style:none ;
+    border-radius:1rem;
+    margin: 4rem auto 0px auto;
+    background-color: white;
+    opacity: 0.7;
+}
+.signup-btn{
+    height: 5rem;
+    width: 25rem;
+    border-style:none ;
+    border-radius:1rem;
+    background-color: rgb(154, 184, 221);
+    margin: 2rem auto 0.5rem auto;
+    display: block;
+    font-weight: 700;
+    
+}
+.hr1{
+ display: inline-block;
+}
+.hr2{
+  display: inline-block;
+}
+.footer-signup{
+display: inline-block;
+font-size: 1.3rem;
+}
+.signup-footer-icons{
+    display: flex;
+    width:26rem;
+    margin: 2rem auto 2rem auto;
+    justify-content: space-around;
+}
+.sign-up-link{
+    text-decoration: none;
+    color: rgb(51, 117, 198);
+}
+.sign-up-link:active{
+    color: rgb(51, 117, 198);
+}
+.sign-up-link:visited{
+    color: rgb(51, 117, 198);
+}
