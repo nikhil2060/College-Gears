@@ -1,0 +1,111 @@
+html {
+  font-size: 62.6%;
+}
+
+.login-content {
+  width: 40rem;
+  height: 40rem;
+  top: 16rem;
+  text-align: center;
+  left: 70rem;
+  margin-top: 5rem;
+}
+
+.login_main_box {
+  width: 65rem;3
+  height: 50rem;
+  margin: 3rem auto 2rem auto;
+  border-radius: 3rem;
+  box-shadow: 0rem 0rem 1rem 0.3rem rgb(163 153 166);
+  background-color: rgb(191, 207, 228);
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.username,
+.password,
+.login_btn {
+  display: block;
+  margin: 2rem auto 0rem auto;
+  height: 5rem;
+  width: 26rem;
+  text-indent: 1rem;
+  border-style: none;
+  border-radius: 1rem;
+  font-weight: 700;
+  outline: none;
+  opacity: 0.7;
+}
+.sout_hello {
+  /* font-family: "Open Sans", sans-serif; */
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  color: rgb(79, 128, 192);
+}
+small {
+  /* font-family: "Open Sans", sans-serif; */
+  color: black;
+}
+.login_btn {
+  background-color: rgb(154, 184, 221);
+  cursor: pointer;
+}
+.user_invitation {
+  font-size: 1.2rem;
+}
+.login_option {
+  font-size: 1rem;
+}
+.login_option_link {
+  text-decoration: none;
+  color: rgb(51, 117, 198);
+}
+.login_option_link:hover {
+  color: rgb(51, 117, 198);
+}
+.login_option_link:active {
+  color: rgb(51, 117, 198);
+}
+.login_option_link:visited {
+  color: rgb(51, 117, 198);
+}
+.login-footer {
+  color: black;
+  display: inline-block;
+  vertical-align: sub;
+  font-size: 1.3rem;
+}
+hr {
+  margin-top: 3rem;
+  width: 7rem;
+  border-style: none;
+  border-bottom: 0.1rem solid black;
+  display: inline-block;
+}
+.login_main_box img {
+  border-radius: 3rem;
+  margin: 1rem 0px 1rem 1rem;
+}
+#linkedin,
+#github,
+#facebook {
+  font-size: 40px;
+}
+#linkedin {
+  color: rgb(47, 47, 104);
+}
+#github {
+  color: rgb(34, 34, 66);
+}
+#facebook {
+  color: rgb(23, 23, 96);
+}
+.login-footer-icons {
+  display: flex;
+  width: 26rem;
+  margin: 3rem auto 0rem auto;
+  justify-content: space-around;
+}
