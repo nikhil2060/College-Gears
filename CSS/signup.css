@@ -7,12 +7,12 @@
   width: 80rem;
   margin: 4rem auto 3rem auto;
   border-radius: 3rem;
-  box-shadow: 0rem 0rem 1rem 0.3rem rgb(163 153 166);
   background-color: rgb(191, 207, 228);
   border: 0.1rem solid rgb(191, 207, 228);
   display: flex;
   position: absolute;
   left: 22%;
+  z-index: 10;
 }
 .signup-content {
   border-radius: 3rem;
