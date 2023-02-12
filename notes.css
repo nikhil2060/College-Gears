@@ -103,7 +103,7 @@
   .chem,.electronics,.phy,.maths{
     height: 37rem;
     width: 35rem;
-    box-shadow: 0.2rem 0.2rem 1.3rem 0.2rem  #e5e5f7;
+    box-shadow:  0px 0px 19px 0px  #d7d7dc;
     border-radius: 1.5rem;
     text-align: center;
     background-color: #eeeef2;
@@ -152,7 +152,7 @@
   .python,.electrical,.c,.maths2{
     height: 37rem;
     width: 35rem;
-    box-shadow: 0.2rem 0.2rem 1.3rem 0.2rem  #e5e5f7;
+    box-shadow:  1px 1px 19px 1px  #d7d7dc;
     border-radius: 1.5rem;
     text-align: center;
     background-color: #eeeef2;
@@ -223,5 +223,6 @@
     margin-right: 90rem;
     margin-top: 1rem;
     border-left: .2rem solid rgb(142, 137, 137) ;
-    padding: 1rem 0rem 0rem 1rem;
+    padding: 1.2rem 0rem 0rem 1rem;
+    color: rgb(132, 130, 130);
   }
