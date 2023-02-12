@@ -19,11 +19,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+    width: 100%;
     /* box-shadow: 0.5rem 0.5rem 2rem rgba(85, 85, 85, 0.074); */
     /* background-image: linear-gradient(-140deg, rgba(102, 116, 204, 0.5), #fff); */
     background-color: #f8f8fd;
     box-shadow: 0.2rem 0.2rem 0.3rem 0.2rem  #e5e5f7;
+    position:fixed;
+    top: 0rem;
   }
   .website-logo {
     height: 5rem;
@@ -86,7 +88,7 @@
     color: #6674cc;;
   }
   .notes_section{
-    margin-top: 2rem;
+    margin-top: 12rem;
     height: 87rem;
     /* border: 0.1rem solid red;  */
 
@@ -104,6 +106,7 @@
     box-shadow: 0.2rem 0.2rem 1.3rem 0.2rem  #e5e5f7;
     border-radius: 1.5rem;
     text-align: center;
+    background-color: #eeeef2;
   }
  
   .physics_logo,.chem_logo,.electronics_logo,.math_logo{
@@ -152,6 +155,7 @@
     box-shadow: 0.2rem 0.2rem 1.3rem 0.2rem  #e5e5f7;
     border-radius: 1.5rem;
     text-align: center;
+    background-color: #eeeef2;
   }
   
   .python_logo,.maths2_logo,.electrical_logo,.c_logo{
@@ -204,12 +208,13 @@
     margin-left: 2rem;
     display: flex;
     justify-content: space-between;
+    margin-top: 2rem;
   }
   .foot_icon{
     width: 10rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
     margin-right: 2.5rem;
   }
   .copyright_head{
