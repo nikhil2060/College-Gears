@@ -446,3 +446,94 @@ html {
   font-weight: 600;
   margin-bottom: 2rem;
 }
+
+/* Contact us CLASSES ************************** */
+
+.section-contact-us {
+  padding: 9.6rem 0 12.8rem 0;
+  transition: all 0.4s;
+  background-color: #f8f8fd;
+}
+
+.contact-us-main {
+  background-image: linear-gradient(to right bottom, #a3ace0, #6674cc);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  overflow: hidden;
+}
+
+.contact-us-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.contact-us-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #141729;
+}
+
+.contact-us-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.contact-us-main .heading-secondary {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+/* contact us form CLASSES ************************** */
+
+.contact-us-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.contact-us-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.contact-us-form input,
+.contact-us-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-form input::placeholder {
+  color: #aaa;
+}
+
+.btn-form {
+  background-color: #292e52;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover {
+  background-color: #fdf2e9;
+  color: #555;
+}
+
+.contact-us-img-box {
+  margin-right: 5rem;
+}
+.contact-us-img-box img {
+  width: 100%;
+  border-radius: 20px;
+}
