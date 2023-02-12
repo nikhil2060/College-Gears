@@ -78,7 +78,7 @@ hr{
     border-bottom: 0.1rem solid  black ;
     display: inline-block;
 }
-img{
+.login_guy{
  border-radius: 3rem ;
  margin: 1rem 0px 1rem 1rem;
 }
