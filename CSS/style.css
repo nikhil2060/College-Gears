@@ -25,9 +25,13 @@ body {
 html {
   font-size: 62.6%;
 }
+
+.hidden {
+  display: none !important;
+}
 /* GENERIC CLASESS************************************ */
 
-/* .overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -36,7 +40,7 @@ html {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
-} */
+}
 
 .container {
   max-width: 120rem;
