@@ -1,0 +1,76 @@
+.tutorial-main-div{
+    height: 200rem;
+    /* border: .3rem solid red; */
+    background-color: #f8f8fd;
+    text-align: center;
+    padding-top: 13rem;
+}
+.heading{
+    color: #6674cc;
+    font-size: 5rem;
+}
+.video-section1{
+    width: 95%;
+    /* border: .3rem solid red; */
+    margin: 8rem auto 0rem auto;
+    display: flex;
+    gap: 4rem;
+}
+.video-section2{
+    width: 95%;
+    /* border: .3rem solid red; */
+    margin: 10rem auto 0rem auto;
+    display: flex;
+    gap: 4rem;
+}
+.video-section3{
+    width: 95%;
+    /* border: .3rem solid red; */
+    margin: 10rem auto 0rem auto;
+    display: flex;
+    gap: 4rem;
+}
+.tutorial
+{
+    width: 48rem;
+    height: 40rem;
+    /* border: .3rem solid rgb(74, 21, 21); */
+    border-radius: 1.5rem;
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+}
+.video-img{
+   height: 23rem ;
+   width: 33rem;
+   border-radius: 1.5rem 1.5rem 0 0;
+}
+.ai{
+    height: 23rem ;
+    width: 33rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    position: absolute;
+    top: 126rem;
+    backdrop-filter: blur(2px);
+}
+.lock{
+    margin-top: 7rem;
+    margin-right: 4rem;
+    width: 9rem;
+}
+.iot{
+    height: 23rem ;
+    width: 33rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    position: absolute;
+    top: 126rem;
+    backdrop-filter: blur(2px);
+}
+.lock1{
+    margin-top: 7rem;
+    margin-right: 4rem;
+    width: 9rem;
+}
+.lock2{
+    margin-top: 7rem;
+    margin-left: 1rem;
+    width: 9rem;
+}
