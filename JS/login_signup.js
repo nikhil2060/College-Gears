@@ -48,3 +48,11 @@ const closesignup_fun = function () {
 for (let i = 0; i < signupbtn.length; i++) {
   signupbtn[i].addEventListener("click", opensignup_fun);
 }
+
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    if (!signup_box.classList.contains("hidden")) {
+      closesignup_fun();
+    }
+  }
+});
