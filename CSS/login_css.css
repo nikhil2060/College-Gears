@@ -2,10 +2,6 @@ html {
   font-size: 62.6%;
 }
 
-#hidden2 {
-  display: none;
-}
-
 .signin-content {
   width: 40rem;
   height: 40rem;
@@ -19,7 +15,7 @@ html {
 .signin_main_box {
   width: 65rem;
   height: 50rem;
-  margin: 3rem auto 2rem auto;
+  margin: 16rem auto 2rem auto;
   border-radius: 3rem;
 
   background-color: rgb(191, 207, 228);
