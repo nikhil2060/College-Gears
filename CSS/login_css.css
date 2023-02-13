@@ -2,30 +2,32 @@ html {
   font-size: 62.6%;
 }
 
-.login-content {
+#hidden2 {
+  display: none;
+}
+
+.signin-content {
   width: 40rem;
   height: 40rem;
   top: 16rem;
   text-align: center;
   left: 70rem;
   margin-top: 5rem;
+  z-index: 10;
 }
 
-.login_main_box {
+.signin_main_box {
   width: 65rem;
   height: 50rem;
   margin: 3rem auto 2rem auto;
   border-radius: 3rem;
-  box-shadow: 0rem 0rem 1rem 0.3rem rgb(163 153 166);
+
   background-color: rgb(191, 207, 228);
   display: flex;
   position: absolute;
+  left: 27%;
+  z-index: 10;
 }
-
-.hidden {
-  display: none;
-}
-
 .username,
 .password,
 .login_btn {
@@ -41,13 +43,13 @@ html {
   opacity: 0.7;
 }
 .sout_hello {
-  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 2rem;
   margin-top: 1rem;
   color: rgb(79, 128, 192);
 }
 small {
-  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Open Sans", sans-serif;
   color: black;
 }
 .login_btn {
@@ -86,7 +88,7 @@ hr {
   border-bottom: 0.1rem solid black;
   display: inline-block;
 }
-.login_main_box img {
+.login_guy {
   border-radius: 3rem;
   margin: 1rem 0px 1rem 1rem;
 }
