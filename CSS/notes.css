@@ -19,13 +19,16 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
   width: 100%;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 100;
+
   /* box-shadow: 0.5rem 0.5rem 2rem rgba(85, 85, 85, 0.074); */
   /* background-image: linear-gradient(-140deg, rgba(102, 116, 204, 0.5), #fff); */
-  background-color: #f8f8fd;
+
   box-shadow: 0.2rem 0.2rem 0.3rem 0.2rem #e5e5f7;
-  position: fixed;
-  top: 0rem;
 }
 .website-logo {
   height: 5rem;
