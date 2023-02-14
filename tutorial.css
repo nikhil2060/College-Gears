@@ -37,6 +37,7 @@
     /* border: .3rem solid rgb(74, 21, 21); */
     border-radius: 1.5rem;
     box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+    line-height: 2rem;
 }
 .video-img{
    height: 23rem ;
@@ -73,4 +74,28 @@
     margin-top: 7rem;
     margin-left: 1rem;
     width: 9rem;
+}
+.coming-soon{
+    margin-top: 2rem;
+    color: #6674cc;
+}
+.ai-head,.iot-head{
+    margin-top: 2.8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .6;
+}
+.mech-head{
+
+   width: 30rem;
+   font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .6;
+    margin: 2.8rem auto 0 auto;
+}
+.chem-head,.phy-head,.math1-head,.c-head,.python-head,.electro-head,.electrical-head,.softskills-head,.maths2-head{
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .6;
+    margin: 2.8rem auto 0 auto;
 }
