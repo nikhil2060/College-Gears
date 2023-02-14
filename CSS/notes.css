@@ -37,6 +37,7 @@ html {
 .main-nav {
   display: flex;
   gap: 10rem;
+  margin-right: 2rem;
 }
 
 .main-nav-list {

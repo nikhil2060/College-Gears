@@ -1,0 +1,16 @@
+.video-space{
+    height: 46rem;
+    border: .3rem solid red;
+
+}
+.math-vid{
+    float:left ;
+    overflow-y: scroll;
+}
+.mod1{
+    /* border:  2px solid green; */
+    height: 46rem;
+    width: 32%;
+    margin-left: 64rem;
+    overflow-y: scroll;
+}
