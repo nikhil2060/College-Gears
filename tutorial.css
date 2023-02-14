@@ -99,3 +99,12 @@
     opacity: .6;
     margin: 2.8rem auto 0 auto;
 }
+.start-learn{
+    margin-top: 3rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 3rem;
+    background-color: #6674cc;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
