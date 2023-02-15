@@ -1,6 +1,9 @@
-
+.after-nav{
+    margin-top: 3rem;
+    height: 110rem;
+}
 .video-space{
-    margin-top: 12rem;
+    margin-top: 7rem;
     height: 75rem;
     /* border: .3rem solid red; */
 
@@ -8,6 +11,7 @@
 .math-vid{
     float:left ;
     overflow-y: scroll;
+    
 }
 .mod1{
     /* border:  2px solid green; */
@@ -19,6 +23,8 @@
 .mod-head{
     text-align: center;
     margin:2rem auto 1rem auto ;
+    color:#6674cc;
+
 }
 .module{
     padding: 2rem 1rem 2rem 1.2rem;
@@ -27,4 +33,36 @@
     margin-bottom: .5rem;
     border-radius: 1rem;
     margin-right: 1rem;
+}
+.module:hover{
+  color: #fff;
+  background-color: #6674cc;
+}
+.after-discription{
+    margin-top: 3rem ;
+    border-style: none;
+    border-bottom: 1rem dotted;
+    border-color: #9198d3;
+    width: 15%;
+    margin: auto;
+    opacity: 0.3;
+}
+.discription-head{
+    font-size: 4rem;
+    text-align: center;
+    color: #6674cc;
+  margin-bottom: 1.8rem;
+}
+.video-head{
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 4rem;
+    color: #6674cc;
+}
+
+.discription-list{
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-left: 4rem;
+    line-height: 3rem;
 }
