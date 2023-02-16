@@ -16,3 +16,81 @@ document.getElementById("light").addEventListener("click",function()
         document.getElementsByClassName("module")[i].removeAttribute("style");
         }
 })
+document.getElementsByClassName("math-mod-1-1")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/vuNMcfARFu4")
+})
+document.getElementsByClassName("math-mod-1-2")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/BtwvUFsADyc")
+})
+document.getElementsByClassName("math-mod-1-3")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/BO764hAnkdw")
+})
+document.getElementsByClassName("math-mod-1-4")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/ScGF17HUIfA")
+})
+document.getElementsByClassName("math-mod-1-5")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/IrbaVddsUWQ")
+})
+document.getElementsByClassName("math-mod-1-6")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/w1eNN7LM-wo")
+})
+document.getElementsByClassName("math-mod-1-7")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/bEEMbhsTO-4")
+})
+document.getElementsByClassName("math-mod-1-8")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/GVd8AwIHwKg")
+})
+document.getElementsByClassName("math-mod-1-9")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/KHpMUDXqTJA")
+})
+document.getElementsByClassName("math-mod-1-10")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/XZT16F8aUZE")
+})
+document.getElementsByClassName("math-mod-1-11")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/69Npx0m4pLY")
+})
+document.getElementsByClassName("math-mod-1-12")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/ClNwtLzLBKU")
+})
+document.getElementsByClassName("math-mod-1-13")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/FGGCTPb1NVg")
+})
+document.getElementsByClassName("math-mod-1-14")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/dc-m_m12xLE")
+})
+document.getElementsByClassName("math-mod-1-15")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/OZeEs8bRr4Y")
+})
+document.getElementsByClassName("math-mod-1-16")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/kiJqajyVeEE")
+})
+document.getElementsByClassName("math-mod-1-17")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/9wiaXK0thkI")
+})
+document.getElementsByClassName("math-mod-1-18")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/Zgb6U7KBxbI")
+})
+document.getElementsByClassName("math-mod-1-19")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/QWJ7TEYynMM")
+})
+document.getElementsByClassName("math-mod-1-20")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/a_GNaqGJAMA")
+})
+document.getElementsByClassName("math-mod-1-21")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/jZg-xATLqKw")
+})
+document.getElementsByClassName("math-mod-1-22")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/6hXI54zEvMw")
+})
+document.getElementsByClassName("math-mod-1-23")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/7ArIU1eOwZM")
+})
+document.getElementsByClassName("math-mod-1-24")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/-NGtIfm8Dtg")
+})
+document.getElementsByClassName("math-mod-1-25")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/AvrJNCKcTG8")
+})
+document.getElementsByClassName("math-mod-1-26")[0].addEventListener("click",function(){
+    document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/UUd-YWUVfJw")
+})
