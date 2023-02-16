@@ -11,6 +11,4 @@ document.getElementById("light").addEventListener("click",function()
 {
     document.querySelector("body").classList.remove("dark-back")
     document.querySelector("samp").innerHTML="Dark mode"
-
-
 })
