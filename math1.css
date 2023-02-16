@@ -7,19 +7,15 @@
 .video-space{
     margin-top: 2.6rem;
     height: 65rem;
+    display: flex;
+    justify-content: space-around;
     /* border: .3rem solid red; */
 
 }
-.math-vid{
-    float:left ;
-    overflow-y: scroll;
-    
-}
 .mod1{
-    /* border:  2px solid green; */
+    display: inline-block;
     height: 63rem;
     width: 32%;
-    margin-left: 102rem;
     padding-left: .4rem;
     overflow-y: auto;
     /* border-bottom: 0.2rem solid #6674cc; */

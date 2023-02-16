@@ -5,20 +5,16 @@
 .video-space{
     margin-top: 2.6rem;
     height: 65rem;
+    display: flex;
+    justify-content: space-around;
     /* border: .3rem solid red; */
 
 }
-.math-vid{
-    float:left ;
-    overflow-y: scroll;
-    
-}
 .mod1{
-    /* border:  2px solid green; */
+    display: inline-block;
     height: 63rem;
     width: 32%;
     padding-left: .4rem;
-    margin-left: 102rem;
     overflow-y: auto;
     /* border-bottom: 0.2rem solid #6674cc; */
     /* border-radius: 1rem; */
@@ -33,8 +29,8 @@
     padding: 2rem 1rem 2rem 1.2rem;
     /* height:; */
     /* border: .1rem solid black; */
-    box-shadow: 0rem .1rem 1rem .3rem #77797d;
-    margin-bottom: .5rem;
+    box-shadow: 0rem .2rem 1rem .3rem #77797d;
+    margin-bottom: 1.5rem;
     border-radius: 1rem;
     margin-right: 1rem;
 }
