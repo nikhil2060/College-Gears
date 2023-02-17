@@ -69,7 +69,7 @@ document.getElementsByClassName("math-mod-1-17")[0].addEventListener("click",fun
     document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/0g-tHfTP8uw")
 })
 
-// module 2 maths 1-----------------------------------------------------------------------------------------------
+// module 2 maths 2-----------------------------------------------------------------------------------------------
 
 document.getElementsByClassName("math-mod-2-1")[0].addEventListener("click",function(){
     document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/753blv--0Kc")
@@ -106,7 +106,7 @@ document.getElementsByClassName("math-mod-2-11")[0].addEventListener("click",fun
 })
 
 
-// maths 1 module 3 
+// maths 2 module 3 
 
 document.getElementsByClassName("math-mod-3-1")[0].addEventListener("click",function(){
     document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/B-6b28uC0NU")
@@ -139,7 +139,7 @@ document.getElementsByClassName("math-mod-3-10")[0].addEventListener("click",fun
     document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/Yi57nM4cgOM")
 })
 
-// maths 1 module 4
+// maths 2 module 4
 
 document.getElementsByClassName("math-mod-4-1")[0].addEventListener("click",function(){
     document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/oTpM_DkT_q4")
@@ -181,7 +181,7 @@ document.getElementsByClassName("math-mod-4-13")[0].addEventListener("click",fun
     document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/obAEPq1QkvQ")
 })
 
-// module 5 maths 1
+// module 5 maths 2
 
 document.getElementsByClassName("math-mod-5-1")[0].addEventListener("click",function(){
     document.getElementsByClassName("math-vid")[0].setAttribute("src","https://www.youtube.com/embed/YhGuEO3YTis")
