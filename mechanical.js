@@ -1,0 +1,259 @@
+b=document.getElementById("dark")
+b.addEventListener("click",function()
+{
+    document.querySelector("body").classList.add("dark-back")
+    // b.style.color="white"
+    for(var i=0;i<62;i++){
+        document.getElementsByClassName("module")[i].style.boxShadow="none";
+        }
+    document.getElementById("light").style.color="white"
+
+})
+document.getElementById("light").addEventListener("click",function()
+{
+    document.querySelector("body").classList.remove("dark-back")
+    for(var i=0;i<62;i++){
+        document.getElementsByClassName("module")[i].removeAttribute("style");
+        }
+})
+
+document.getElementsByClassName("mech-mod-1-1")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/WWiBEDc6gDU")
+})
+document.getElementsByClassName("mech-mod-1-2")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/xhJ_WGOxcjk")
+})
+document.getElementsByClassName("mech-mod-1-3")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/ErgEkxL-S2o")
+})
+document.getElementsByClassName("mech-mod-1-4")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/OHBaXGq9LSc")
+})
+document.getElementsByClassName("mech-mod-1-5")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/VKT_xybq80M")
+})
+document.getElementsByClassName("mech-mod-1-6")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/eAXeZWeVlgE")
+})
+document.getElementsByClassName("mech-mod-1-7")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/-VZpL4OX6oc")
+})
+document.getElementsByClassName("mech-mod-1-8")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/nykrPM26VRs")
+})
+document.getElementsByClassName("mech-mod-1-9")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/Pme1BsHYxTA")
+})
+document.getElementsByClassName("mech-mod-1-10")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/5EfHutPEAuo")
+})
+
+
+// module 2 mechsics-----------------------------------------------------------------------------------------------
+
+document.getElementsByClassName("mech-mod-2-1")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/TTj_vbV1Hqk")
+})
+document.getElementsByClassName("mech-mod-2-2")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/XzCW-CgHr3s")
+})
+document.getElementsByClassName("mech-mod-2-2.0")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/cgSF4D_qkgk")
+})
+document.getElementsByClassName("mech-mod-2-3")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/sg4qri4GTSM")
+})
+document.getElementsByClassName("mech-mod-2-4")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/MuOmrHoRhH4")
+})
+document.getElementsByClassName("mech-mod-2-5")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/e7GjAWSwRuA")
+})
+document.getElementsByClassName("mech-mod-2-6")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/UtEXwsKJlkk")
+})
+document.getElementsByClassName("mech-mod-2-7")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/bhh11JaQhs8")
+})
+document.getElementsByClassName("mech-mod-2-8")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/gSf14aDzMmU")
+})
+document.getElementsByClassName("mech-mod-2-9")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/VHp6OtaUsE4")
+})
+document.getElementsByClassName("mech-mod-2-10")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/s2gdoFMWCcM")
+})
+document.getElementsByClassName("mech-mod-2-11")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/GNW8BwtUu_A")
+})
+document.getElementsByClassName("mech-mod-2-12")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/VOPrNc20I_M")
+})
+document.getElementsByClassName("mech-mod-2-13")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/dpNpzZ4qQN4")
+})
+document.getElementsByClassName("mech-mod-2-14")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/GbANPADAe1c")
+})
+document.getElementsByClassName("mech-mod-2-15")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/7JeyNpkgIX4")
+})
+document.getElementsByClassName("mech-mod-2-16")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/MYI4G0rT9so")
+})
+document.getElementsByClassName("mech-mod-2-17")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/ED1TUr5iPNU")
+})
+document.getElementsByClassName("mech-mod-2-18")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/bHqwoAqZ4DI")
+})
+
+
+// mechsics module 3 -----------------------------------------------------------------------------------------------------------
+
+document.getElementsByClassName("mech-mod-3-1")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/yK4gVpJvMSY")
+})
+document.getElementsByClassName("mech-mod-3-2")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/rM23pcV4SNI")
+})
+document.getElementsByClassName("mech-mod-3-3")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/Q_FsPlOHUJM")
+})
+document.getElementsByClassName("mech-mod-3-4")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/M4yvcMjDxuM")
+})
+document.getElementsByClassName("mech-mod-3-5")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/FkFANltPZrA")
+})
+document.getElementsByClassName("mech-mod-3-6")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/MFPKwu5vugg")
+})
+document.getElementsByClassName("mech-mod-3-7")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/bPdYWgH6gNA")
+})
+document.getElementsByClassName("mech-mod-3-8")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/QdQE-F2A0T4")
+})
+document.getElementsByClassName("mech-mod-3-9")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/siJIJtV-JBU")
+})
+
+document.getElementsByClassName("mech-mod-3-11")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/n_5pkM3P9ZI")
+})
+document.getElementsByClassName("mech-mod-3-11.0")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/7TVdth6U4j4")
+})
+document.getElementsByClassName("mech-mod-3-12")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/nTYuWuVEulM")
+})
+document.getElementsByClassName("mech-mod-3-13")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/vRRgbBggeTg")
+})
+
+// mechsics module 4-------------------------------------------------------------------------------------------------
+
+document.getElementsByClassName("mech-mod-4-1")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/aPyF4eUbzZ4")
+})
+document.getElementsByClassName("mech-mod-4-2")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/x0OImeIHzZ4")
+})
+document.getElementsByClassName("mech-mod-4-3")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/dwQB8R9pZ3s")
+})
+document.getElementsByClassName("mech-mod-4-4")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/_YFUxf80cGc")
+})
+document.getElementsByClassName("mech-mod-4-4.0")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/Gjx8qfprgQI")
+})
+document.getElementsByClassName("mech-mod-4-5")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/ppwaif4YV2w")
+})
+document.getElementsByClassName("mech-mod-4-5.0")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/kplAbkpCctQ")
+})
+document.getElementsByClassName("mech-mod-4-5.1")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/wETn3N8vWHk")
+})
+document.getElementsByClassName("mech-mod-4-5.2")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/BCxvNoCnG9I")
+})
+document.getElementsByClassName("mech-mod-4-6")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/GBleMA3eeJg")
+})
+document.getElementsByClassName("mech-mod-4-7")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/gaEzRsyh-iU")
+})
+document.getElementsByClassName("mech-mod-4-8")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/elK2ADh1ccw")
+})
+document.getElementsByClassName("mech-mod-4-9")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/Q3xe0eaoXvk")
+})
+document.getElementsByClassName("mech-mod-4-10")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/LUIG-fo5j-4")
+})
+document.getElementsByClassName("mech-mod-4-11")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/BEwQwkTF5b0")
+})
+document.getElementsByClassName("mech-mod-4-12")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/dJa1DXSC7_Q")
+})
+document.getElementsByClassName("mech-mod-4-13")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/6CRcTXV3b00")
+})
+
+
+// module 5 mechsics---------------------------------------------------------------------------------------------------------------------------
+
+document.getElementsByClassName("mech-mod-5-1")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/BmgdG7tiquc")
+})
+document.getElementsByClassName("mech-mod-5-2")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/zb2M5vBdj4g")
+})
+document.getElementsByClassName("mech-mod-5-3")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/b9LpEZmYxDM")
+})
+document.getElementsByClassName("mech-mod-5-4")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/v3OMLA4jkus")
+})
+document.getElementsByClassName("mech-mod-5-5")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/XGyU3bSXirA")
+})
+document.getElementsByClassName("mech-mod-5-6")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/z6qyBzyf7Bc")
+})
+document.getElementsByClassName("mech-mod-5-7")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/k2tfPeoUqdw")
+})
+document.getElementsByClassName("mech-mod-5-8")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/2BzQYDwZeZk")
+})
+document.getElementsByClassName("mech-mod-5-9")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/-sKpM5wRbwc")
+})
+document.getElementsByClassName("mech-mod-5-10")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/oVKt55K4NPs")
+})
+document.getElementsByClassName("mech-mod-5-10.0")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/oS-c7l4o574")
+})
+document.getElementsByClassName("mech-mod-5-11")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/JYvB_2dHCHM")
+})
+document.getElementsByClassName("mech-mod-5-12")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/wAnZD66sZJE")
+})
+document.getElementsByClassName("mech-mod-5-13")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/be8VMm2hDAo")
+})
+document.getElementsByClassName("mech-mod-5-14")[0].addEventListener("click",function(){
+    document.getElementsByClassName("mech-vid")[0].setAttribute("src","https://www.youtube.com/embed/f-Za6hNMgBA")
+})
+
+
