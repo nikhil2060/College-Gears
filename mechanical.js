@@ -3,7 +3,7 @@ b.addEventListener("click",function()
 {
     document.querySelector("body").classList.add("dark-back")
     // b.style.color="white"
-    for(var i=0;i<62;i++){
+    for(var i=0;i<95;i++){
         document.getElementsByClassName("module")[i].style.boxShadow="none";
         }
     document.getElementById("light").style.color="white"
