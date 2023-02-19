@@ -124,7 +124,7 @@ html {
 .physics_logo,
 .chem_logo,
 .electronics_logo,
-.math_logo {
+.math_logo,.comingsoon_logo,.iot_logo{
   margin-top: 4rem;
   height: 13rem;
   width: 13rem;
@@ -132,7 +132,7 @@ html {
 .phy_discrip,
 .chem_discrip,
 .maths_discrip,
-.electronics_discrip,.iot_discrip,.ai_discrip{
+.electronics_discrip,.iot_discrip,.ai_discrip,.comingsoon_discrip{
   width: 25rem;
   height: 22rem;
   margin: 1rem auto 0rem auto;
@@ -162,7 +162,7 @@ html {
 .python,
 .electrical,
 .c,
-.maths2 ,.AI,.IOT{
+.maths2 ,.AI,.IOT,.comingsoon{
   height: 33rem;
   width: 22%;
   box-shadow: 1px 1px 19px 1px #d7d7dc;
@@ -174,7 +174,7 @@ html {
 .python_logo,
 .maths2_logo,
 .electrical_logo,
-.c_logo,.ai_logo,.iot_logo {
+.c_logo,.ai_logo,.iot_logo.comingsoon_logo{
   margin-top: 4rem;
   height: 13rem;
   width: 13rem;
@@ -182,7 +182,7 @@ html {
 .python_discrip,
 .c_discrip,
 .maths2_discrip,
-.electrical_discrip {
+.electrical_discrip,.comingsoon_discrip{
   width: 25rem;
   height: 22rem;
   margin: 1rem auto 0rem auto;
@@ -213,6 +213,10 @@ html {
 .twitter-link-notes {
   color: rgb(142, 137, 137);
   display: inline-block;
+  font-size: 2rem;
+}
+.comingsoon_head{
+  margin-top: 5rem;
   font-size: 2rem;
 }
 .foot_notes {
