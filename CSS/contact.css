@@ -3,12 +3,6 @@
   filter: blur(10px);
   height: 50rem;
   overflow-y: hidden; */
-  background-color: rgb(231, 231, 254);
+  background-color: rgba(224, 228, 243, 255);
   height: 100vh;
-}
-
-.contact-page {
-  /* position: fixed;
-  top: 0rem;
-  left: 12rem; */
 }
