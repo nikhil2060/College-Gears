@@ -72,19 +72,45 @@
     margin-top: 9rem;
   }
   .pvc_head{
-    margin-top: 13rem;
+    margin-top: 5rem;
     text-align: center;
+    margin-bottom: 5rem;
   
   }
   p{
     font-size: 1.5rem;
   }
-  .pvcdiv{
-    width: 75%;
-    margin-left:25rem;
-    line-height: 4rem;
-    margin-top: 6rem;
-    
-  }
-  
+.pvcdiv{
+  width: 75%;
 
+  margin-left:25rem;
+  margin-top: 6rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  background-color: #f0f1fa;
+  
+}
+  .hr1{
+    margin-top:12rem;
+    width:50rem;
+    margin-left: 53rem;
+}
+.hr2{
+    margin-top:2rem;
+    width:50rem;
+    margin-left: 53rem;
+}
+.pvcmaindiv
+{
+    background-color: #f0f1fa;
+}
+.pvc_head{
+    color:#767ec6
+}
+.foot_notes2 {
+    height: 7rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+  }
