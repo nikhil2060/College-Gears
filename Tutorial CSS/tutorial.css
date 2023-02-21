@@ -1,125 +1,118 @@
-* {
-  transition: all 0.5s;
+.tutorial-main-div{
+    height: 182rem;
+    /* border: .3rem solid red; */
+    background-color: #f8f8fd;
+    text-align: center;
+    padding-top: 13rem;
 }
-.tutorial-main-div {
-  height: 200rem;
-  /* border: .3rem solid red; */
-  background-color: #f8f8fd;
-  text-align: center;
-  padding-top: 13rem;
+.heading{
+    color: #6674cc;
+    font-size: 5rem;
 }
-.heading {
-  color: #6674cc;
-  font-size: 5rem;
+.video-section1{
+    width: 95%;
+    /* border: .3rem solid red; */
+    margin: 8rem auto 0rem auto;
+    display: flex;
+    gap: 4rem;
 }
+.video-section2{
+    width: 95%;
+    /* border: .3rem solid red; */
+    margin: 10rem auto 0rem auto;
+    display: flex;
+    gap: 4rem;
+}
+.video-section3{
+    width: 95%;
+    /* border: .3rem solid red; */
+    margin: 10rem auto 0rem auto;
+    display: flex;
+    gap: 4rem;
+}
+.tutorial
+{
+    width: 4800rem;
+    height: 40rem;
+    /* border: .3rem solid rgb(74, 21, 21); */
+    border-radius: 1.5rem;
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+    line-height: 2rem;
+}
+.video-img{
+   height: 23rem ;
+   width:99%;
+   border-radius: 1.5rem 1.5rem 0 0;
+}
+.ai{
+    height: 23rem ;
+    width: 33rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    position: absolute;
+    top: 126rem;
+    backdrop-filter: blur(2px);
+}
+.lock{
+    margin-top: 7rem;
+    margin-right: 4rem;
+    width: 9rem;
+}
+.iot{
+    height: 23rem ;
+    width: 33rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    position: absolute;
+    top: 126rem;
+    backdrop-filter: blur(2px);
+}
+.lock1{
+    margin-top: 7rem;
+    margin-right: 4rem;
+    width: 9rem;
+}
+.lock2{
+    margin-top: 7rem;
+    margin-left: 1rem;
+    width: 9rem;
+}
+.coming-soon{
+    margin-top: 2rem;
+    color: #6674cc;
+}
+.ai-head,.iot-head{
+    margin-top: 2.8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .6;
+}
+.mech-head{
 
-.video-section1 {
-  width: 95%;
-  /* border: .3rem solid red; */
-  margin: 8rem auto 0rem auto;
-  display: flex;
-  gap: 4rem;
+   width: 30rem;
+   font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .6;
+    margin: 2.8rem auto 0 auto;
 }
-.video-section2 {
-  width: 95%;
-  /* border: .3rem solid red; */
-  margin: 10rem auto 0rem auto;
-  display: flex;
-  gap: 4rem;
+.chem-head,.phy-head,.math1-head,.c-head,.python-head,.electro-head,.electrical-head,.softskills-head,.maths2-head{
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .6;
+    margin: 2.8rem auto 0 auto;
 }
-.video-section3 {
-  width: 95%;
-  /* border: .3rem solid red; */
-  margin: 10rem auto 0rem auto;
-  display: flex;
-  gap: 4rem;
+.start-learn{
+    margin-top: 3rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 3rem;
+    background-color: #6674cc;
+    color: white;
+    border-style: none;
+    cursor: pointer;
 }
-.tutorial {
-  width: 4800rem;
-  height: 40rem;
-  /* border: .3rem solid rgb(74, 21, 21); */
-  border-radius: 1.5rem;
-  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
-  line-height: 2rem;
-}
-
-.tutorial:hover {
-  transform: scale(1.04);
-}
-.video-img {
-  height: 23rem;
-  width: 99%;
-  border-radius: 1.5rem 1.5rem 0 0;
-}
-.ai {
-  height: 23rem;
-  width: 33rem;
-  border-radius: 1.5rem 1.5rem 0 0;
-  position: absolute;
-  top: 126rem;
-  backdrop-filter: blur(2px);
-}
-.lock {
-  margin-top: 7rem;
-  margin-right: 4rem;
-  width: 9rem;
-}
-.iot {
-  height: 23rem;
-  width: 33rem;
-  border-radius: 1.5rem 1.5rem 0 0;
-  position: absolute;
-  top: 126rem;
-  backdrop-filter: blur(2px);
-}
-.lock1 {
-  margin-top: 7rem;
-  margin-right: 4rem;
-  width: 9rem;
-}
-.lock2 {
-  margin-top: 7rem;
-  margin-left: 1rem;
-  width: 9rem;
-}
-.coming-soon {
-  margin-top: 2rem;
-  color: #6674cc;
-}
-.ai-head,
-.iot-head {
-  margin-top: 2.8rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  opacity: 0.6;
-}
-.mech-head {
-  width: 30rem;
-  font-size: 1.5rem;
-  font-weight: 700;
-  opacity: 0.6;
-  margin: 2.8rem auto 0 auto;
-}
-.chem-head,
-.phy-head,
-.math1-head,
-.c-head,
-.python-head,
-.electro-head,
-.electrical-head,
-.softskills-head,
-.maths2-head {
-  font-size: 1.5rem;
-  font-weight: 700;
-  opacity: 0.6;
-  margin: 2.8rem auto 0 auto;
-}
-.start-learn {
-  margin-top: 3rem;
-  padding: 1rem 3rem 1rem 3rem;
-  border-radius: 3rem;
-  background-color: #6674cc;
-  color: white;
-  border-style: none;
-  cursor: pointer;
-}
+.footer-section2 {
+    padding: 6.6rem 0 6.6rem 0;
+    border-top: 1px solid #eee;
+    transition: all 0.4s;
+    background-color: #f0f1fa;
+    /* background-image: linear-gradient(to bottom, #f8f8fd 8%, #d3d8ff 28%); */
+  }
+  
