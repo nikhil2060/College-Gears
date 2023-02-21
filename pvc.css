@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+  }
+  
+  html {
+    font-size: 62.6%;
+  }
+  .header-section {
+    padding: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+  
+    /* box-shadow: 0.5rem 0.5rem 2rem rgba(85, 85, 85, 0.074); */
+    /* background-image: linear-gradient(-140deg, rgba(102, 116, 204, 0.5), #fff); */
+  
+    box-shadow: 0.2rem 0.2rem 0.3rem 0.2rem #e5e5f7;
+  }
+  .website-logo {
+    height: 5rem;
+    padding-left: 2rem;
+  }
+  .main-nav {
+    display: flex;
+    gap: 10rem;
+    margin-right: 2rem;
+  }
+  
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4.2rem;
+  }
+  
+  .main-nav-link {
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: #333;
+  }
+  
+  .log-nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  
+  .log-nav-link {
+    text-decoration: none;
+    font-size: 1.9rem;
+    border-radius: 1.6rem;
+  }
+  main{
+    margin-top: 9rem;
+  }
+  .pvc_head{
+    margin-top: 13rem;
+    text-align: center;
+  }
