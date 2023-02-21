@@ -9,6 +9,7 @@
     line-height: 1;
     font-weight: 400;
     color: #555;
+    background-color: #f0f1fa;
   }
   
   html {
@@ -73,4 +74,17 @@
   .pvc_head{
     margin-top: 13rem;
     text-align: center;
+  
   }
+  p{
+    font-size: 1.5rem;
+  }
+  .pvcdiv{
+    width: 75%;
+    margin-left:25rem;
+    line-height: 4rem;
+    margin-top: 6rem;
+    
+  }
+  
+
